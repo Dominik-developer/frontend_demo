@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FlightFinder</title>
 
     <link rel="stylesheet" href="assets/CSS/style.css">
 
@@ -12,17 +12,45 @@
 </head>
 <body>
 
-    <header>
-        <h1>Welcome</h1>
+   <header>
+        <h2>HUVTSP Rove intership project - FlightFinder</h2>
     </header>
 
     <main>
-        <p>Main</p>
+        <h1>Search for flight connections</h1>
+
+        <section id="api-test">
+            <h3>Api test result fetched using JS</h3>
+            <p id="api-test-p">API results will be displayed in console</p>
+
+        </section>
+        
+        <section id="search-section">
+            <form>
+                <div>
+                    <label for="from">From</label>
+                    <input type="text" id="from" placeholder="Departure city (code)">
+                </div>
+                <div>
+                    <label for="to">To</label>
+                    <input type="text" id="to" placeholder="Destination city (code)">
+                </div>
+                <div>
+                    <label for="date">Data</label>
+                    <input type="date" id="date">
+                </div>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="results-section">
+            <h3>Search results</h3>
+            <p>API results will be displayed here...</p>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 </p>
+        <p>&copy; 2025 FlightFinder. Developed by Dominik Szczepański. All rights reserved.</p>
     </footer>
-    
 </body>
 </html>

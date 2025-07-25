@@ -1,0 +1,33 @@
+
+/Users/your_username/Desktop/project/
+├── public/     <-- frontend (HTML, CSS, JS)
+└── api/        <-- backend in Pythonie
+
+
+HOW TO RUN fronedn: (on mac/windows)
+
+A) Setting enviroment:
+
+    1) open VSCode
+
+    2) download Live Sever plug using side panel
+
+    3) on bottom panel click GO Live
+
+    Now you have running 
+
+
+B) Running frontend: 
+
+    1) open /project/public directory (thats how it works on mac)
+
+    2) on bottom panel click "Go Live" 
+
+    Now you have running frontend on port 5500 (may change but it will say on bottom panel)
+
+    
+C) Using:
+
+    4) Open http://127.0.0.1:5500/ in your web browser of choice
+
+
