@@ -1,0 +1,45 @@
+
+/Users/your_username/Desktop/project/
+├── public/     <-- frontend (HTML, CSS, JS)
+└── api/        <-- backend in Pythonie
+
+
+HOW TO RUN API: (on mac)
+
+A) Setting enviroment:
+
+    1) open VSCode
+
+    2) open new terminal 
+
+    3) open folder - should look smth like that(on mac): your_username@you_mac_name api % 
+
+    4) past it into your terminal: python3 -m venv venv
+
+    5) past it into your terminal: source venv/bin/activate
+
+    6) past it into your terminal: pip install flask flask-cors
+
+B) Running API online:
+
+    1) past it into your terminal: python main.py
+
+    2) Now you should see smth like that: 
+    
+        * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+        * Restarting with stat
+        * Debugger is active!
+
+    This mean API works. 
+    
+C) Using:
+
+    1) Now you can run JS script and comunicate with API form our web frontend
+
+    Exmaple: 
+    
+    fetch('http://127.0.0.1:5000/api/hello')
+        .then(res => res.json())
+        .then(data => console.log(data));
+
+    This should show msg in web consle
